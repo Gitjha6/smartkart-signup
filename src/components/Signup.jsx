@@ -2,7 +2,7 @@ import React from 'react';
 
 const Signup = () => {
   return (
-    <div className="w-full flex flex-col md:flex-row max-w-7xl mx-auto my-10 shadow-md rounded-md overflow-hidden">
+    <div className="flex flex-col md:flex-row h-[calc(100vh-64px)]">
       
       {/* LEFT SIDE - Background Image */}
       <div

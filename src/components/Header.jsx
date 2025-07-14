@@ -9,7 +9,7 @@ const Header = () => {
         <h1 className="text-2xl font-bold">SmartKart</h1>
 
         {/* Navigation */}
-        <nav className="flex flex-wrap items-center justify-center gap-14">
+        <nav className="flex flex-wrap items-center justify-center gap-12">
           <a href="#" className="hover:underline">Home</a>
           <a href="#" className="hover:underline">Contact</a>
           <a href="#" className="hover:underline">About</a>
@@ -17,12 +17,13 @@ const Header = () => {
         </nav>
 
         {/* Search */}
-        <div className="w-full md:w-auto">
+        <div className="w-full md:w-auto flex items-center border rounded px-2">
           <input
             type="text"
             placeholder="What are you looking for?"
-            className="w-full md:w-64 px-4 py-2 border rounded-md text-sm"
+            className="w-full md:w-64 px-2 py-1 outline-none text-sm"
           />
+          <span className="text-gray-500">&#128269;</span>
         </div>
         
       </div>
